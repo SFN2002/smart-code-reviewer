@@ -1,0 +1,1 @@
+from smart_reviewer.ui.dashboard import DashboardRenderer
