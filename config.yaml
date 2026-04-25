@@ -1,0 +1,11 @@
+syntax_dim: 512
+dataflow_dim: 512
+intent_dim: 256
+mahalanobis_threshold: 3.0
+entropy_threshold: 4.0
+z_threshold: 2.5
+db_path: "smart_code_reviewer.db"
+live_dashboard: true
+warm_up_count: 5
+alert_threshold: 0.7
+use_neural: true

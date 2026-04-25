@@ -1,0 +1,59 @@
+[
+    {
+        "mahalanobis_distance": 2.8284199093547255,
+        "is_ood": false,
+        "entropy": 3.1746685161026216,
+        "renyi_entropy": 3.06523337637187,
+        "z_score": -0.4338776960534691,
+        "mean": 0.001426502127750015,
+        "std": 0.001414118540521586,
+        "is_anomalous": false,
+        "confidence": 0.654299980057634,
+        "is_cold_start": false,
+        "record_count": 8,
+        "security_flags": {
+            "sql_injection": false,
+            "hardcoded_secrets": false,
+            "eval_exec": false
+        },
+        "source_id": "module_a"
+    },
+    {
+        "mahalanobis_distance": 2.999987845463496,
+        "is_ood": false,
+        "entropy": 3.0478785203364995,
+        "renyi_entropy": 2.8031347039414674,
+        "z_score": 1.2356126171475932,
+        "mean": 0.0016296917092483295,
+        "std": 0.0014799996439874429,
+        "is_anomalous": false,
+        "confidence": 0.5884030810660561,
+        "is_cold_start": false,
+        "record_count": 8,
+        "security_flags": {
+            "sql_injection": false,
+            "hardcoded_secrets": false,
+            "eval_exec": false
+        },
+        "source_id": "module_b"
+    },
+    {
+        "mahalanobis_distance": 3.1622646340785936,
+        "is_ood": true,
+        "entropy": 3.2637827121733642,
+        "renyi_entropy": 3.207402935790685,
+        "z_score": 1.8348708643121316,
+        "mean": 0.001954357268796432,
+        "std": 0.001769419122962722,
+        "is_anomalous": false,
+        "confidence": 0.5415974542484404,
+        "is_cold_start": false,
+        "record_count": 8,
+        "security_flags": {
+            "sql_injection": false,
+            "hardcoded_secrets": false,
+            "eval_exec": false
+        },
+        "source_id": "module_c"
+    }
+]
